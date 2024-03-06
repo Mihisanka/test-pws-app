@@ -1,11 +1,23 @@
-.about-section {
+/* .about-section {
   padding: 20px;
   text-align: center;
   background-color:rgb(255, 255, 255);
   color: rgb(69, 64, 64);
   height: auto;
   align-items: center;
+} */
+.about-section {
+  padding: 20px;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  color: rgb(69, 64, 64);
+  height: auto; /* Remove fixed height */
+  align-items: center;
+  position: relative; /* Ensure position is relative for the absolute position of the map */
 }
+
+
+
 .About-row{
   display: flex;
     flex-wrap: wrap;

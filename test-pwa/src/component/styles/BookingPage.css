@@ -1,6 +1,6 @@
-/* BookingPage.css */
+/* BookingPage.css
 
-.booking-page {
+.car-booking-page {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -26,6 +26,14 @@
     margin-top: 20px;
   }
   
+.car-card.img{
+ width: 50%;
+ height: 50px;
+ padding-bottom: 30px;
+ 
+
+}
+
   .form-group {
     margin-bottom: 10px;
   }
@@ -61,7 +69,7 @@
   
   .map{
     height: auto;
-  }
+  } */
 /* 
   @media(max-width:736px){
     .contact-form .main{
@@ -84,3 +92,242 @@
         border-top-right-radius: 8px;
     }
   }   */
+
+/* 
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+  
+  .wrapper {
+      font-family: 'Poppins', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background: #01012b;
+      max-width: auto;
+      max-height: 100%;
+  
+      h1{
+          color: #fff;
+      }
+  
+      p{
+          color: #fff;
+      }
+  }
+  
+  .wrapper h1 {
+      font-size: 3em;
+      margin: 25px;
+  }
+  
+  .booking-box {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      width: 1000px;
+      margin-top: 30px;
+      padding-bottom: 50px;
+  }
+  
+  .booking-card {
+      min-height: 220px;
+      width: 320px;
+      padding: 30px;
+      border-radius: 5px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background: #ffffff;
+      margin: 10px 4px;
+      box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2);
+  }
+  
+  .booking-card i {
+      margin: 20px;
+      color: #085fbd;
+  }
+  
+  .booking-card h2 {
+      margin-bottom: 12px;
+      font-weight: 400;
+      text-align: center;
+  }
+  
+  .booking-card p {
+      color: #020202;
+      text-align: center;
+  }
+  
+  .booking-card:hover i,
+  .booking-card:hover p {
+      color: #121212;
+  }
+  
+  .booking-card:hover h2 {
+      font-weight: 600;
+  }
+  
+  .booking-card:nth-child(1):hover {
+      background: linear-gradient(45deg, #085fbd 0%, rgba(136, 113, 199, 0.7) 100%), url('');
+      background-size: cover;
+  }
+  
+  @media screen and (max-width: 768px) {
+    /* Adjust map size for smaller screens /
+    .map-container {
+      height: 300px; /* Example height for smaller screens /
+    }
+    .booking-box {
+      position: relative; /* Add position relative to use position absolute for the map container /
+    }
+    
+    .map-container {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+    }
+    
+  }
+  
+  
+  
+  @media (max-width: 991px) {
+      .wrapper {
+          padding: 25px;
+      }
+  
+      .wrapper h1 {
+          font-size: 2.5em;
+          font-weight: 600;
+      }
+  
+      .booking-box {
+          flex-direction: column;
+          width: 100%;
+      }
+  
+      .card {
+          min-width: 300px;
+          margin: 10px auto;
+      }
+  }
+ */
+
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+ 
+ .wrapper {
+     font-family: 'Poppins', sans-serif;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     background: #01012b;
+ 
+     h1{
+         color: #fff;
+     }
+ 
+     p{
+         color: #fff;
+     }
+ }
+ 
+ .wrapper h1 {
+     font-size: 3em;
+     margin: 25px;
+ }
+ 
+ .content-box {
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     width: 1000px;
+     margin-top: 30px;
+     padding-bottom: 50px;
+ }
+ 
+ .service-card {
+     min-height: 220px;
+     width: 320px;
+     padding: 30px;
+     border-radius: 5px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     background: #ffffff;
+     margin: 10px 4px;
+     box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2);
+ }
+ 
+ .service-card i {
+     margin: 20px;
+     color: #085fbd;
+ }
+ 
+ .service-card h2 {
+     margin-bottom: 12px;
+     font-weight: 400;
+     text-align: center;
+ }
+ 
+ .service-card p {
+     color: #020202;
+     text-align: center;
+ }
+ 
+ .service-card:hover i,
+ .service-card:hover p {
+     color: #121212;
+ }
+ 
+ .service-card:hover h2 {
+     font-weight: 600;
+ }
+ 
+ .service-card:nth-child(1):hover {
+     background: linear-gradient(45deg, #085fbd 0%, rgba(136, 113, 199, 0.7) 100%), url('');
+     background-size: cover;
+ }
+
+ 
+ @media (max-width: 991px) {
+     .wrapper {
+         padding: 25px;
+     }
+ 
+     .wrapper h1 {
+         font-size: 2.5em;
+         font-weight: 600;
+     }
+ 
+     .content-box {
+         flex-direction: column;
+         width: 100%;
+     }
+ 
+     .card {
+         min-width: 300px;
+         margin: 10px auto;
+     }
+ }
+ #map {
+    position: absolute; /* Position the map absolutely within the .about-section */
+    top: 0;
+    left: 0;
+    width: 100%; /* Fill available width */
+    height: 100%; /* Fill available height */
+  }

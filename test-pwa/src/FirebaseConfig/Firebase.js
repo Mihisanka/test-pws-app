@@ -18,22 +18,22 @@ const firebaseConfig = {
   // appId: "1:820823722560:web:ede50a6beb83aef84c2da5"
 
 
-  // apiKey: "AIzaSyDrAzuzBn7smq9wmY5LHiJ4GOFiQM99owQ",
-  // authDomain: "fyp-user-user.firebaseapp.com",
-  // projectId: "fyp-user-user",
-  // storageBucket: "fyp-user-user.appspot.com",
-  // messagingSenderId: "708508861343",
-  // appId: "1:708508861343:web:3a3ee7951d24ef653433aa"
+  apiKey: "AIzaSyDrAzuzBn7smq9wmY5LHiJ4GOFiQM99owQ",
+  authDomain: "fyp-user-user.firebaseapp.com",
+  projectId: "fyp-user-user",
+  storageBucket: "fyp-user-user.appspot.com",
+  messagingSenderId: "708508861343",
+  appId: "1:708508861343:web:3a3ee7951d24ef653433aa"
 
-  apiKey: "AIzaSyC2NQe9YIiKk8qipxrCxPlZkfNfogBePKI",
-  authDomain: "car-parking-f9338.firebaseapp.com",
-  databaseURL:
-    "https://car-parking-f9338-default-rtdb.asia-southeast1.firebasedatabase.app",
-  projectId: "car-parking-f9338",
-  storageBucket: "car-parking-f9338.appspot.com",
-  messagingSenderId: "357367526616",
-  appId: "1:357367526616:web:461c0dca8edf47f36053ad",
-  measurementId: "G-48XWCTC9Z1",
+  // apiKey: "AIzaSyC2NQe9YIiKk8qipxrCxPlZkfNfogBePKI",
+  // authDomain: "car-parking-f9338.firebaseapp.com",
+  // databaseURL:
+  //   "https://car-parking-f9338-default-rtdb.asia-southeast1.firebasedatabase.app",
+  // projectId: "car-parking-f9338",
+  // storageBucket: "car-parking-f9338.appspot.com",
+  // messagingSenderId: "357367526616",
+  // appId: "1:357367526616:web:461c0dca8edf47f36053ad",
+  // measurementId: "G-48XWCTC9Z1",
 };
 
 

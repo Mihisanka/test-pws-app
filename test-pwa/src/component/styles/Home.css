@@ -16,7 +16,7 @@
   background-image: url('../Assets/home2.jpg'); /* Path to your background image */
   background-size: cover;
   background-position: center;
-  height: 100%; /* Adjust height as needed */
+  height: auto; /* Adjust height as needed */
 }
 
 .home-heading h4 {
