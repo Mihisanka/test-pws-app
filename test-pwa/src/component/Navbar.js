@@ -22,11 +22,11 @@ const Navbar = () => {
               Home
             </NavLink>
           </li>
-          <li>
+          {/* <li>
             <NavLink to="/booking" activeclassname="active-link">
               Booking
             </NavLink>
-          </li>
+          </li> */}
           <li>
             <NavLink to="/service" activeclassname="active-link">
               Services

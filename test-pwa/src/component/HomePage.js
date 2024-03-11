@@ -4,6 +4,7 @@ import Services from './Service';
 import AboutPage from './AboutPage';
 import Footer from './Footer';
 import ContactForm from './ContactForm';
+import { Link } from 'react-router-dom';
 //import BookingPage from  './BookingPage'
 //import Footer from './Footer';
 
@@ -18,8 +19,10 @@ function HomePage() {
 
         <div className="home-sub-heading">
           <p style={{ color: "black" }}>
-          
             <b>Your trusted destination for hassle-free parking solutions.</b>
+            <Link to="/login">
+              <button>Booking</button>
+            </Link>
           </p>
         </div>
       </div>
