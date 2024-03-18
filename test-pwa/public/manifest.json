@@ -9,6 +9,12 @@
   "start_url": "/",
   "icons": [
     {
+      "src": "m.icon.png",
+      "sizes": "192*192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
       "src": "logo192.png",
       "sizes": "192*192",
       "type": "image/png"
